@@ -127,3 +127,24 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+/.pydevproject
+/.externalToolBuilders
+
+.idea
+.vscode
+
+/data
+/data_bioharmony
+/data_biometadata
+/django.env
+/exports
+
+# Automation
+reports
+allure-results
+allure-report
+src/bioharmony/api_tests/config/.env*
+!src/bioharmony/api_tests/config/.env.example
+run_id
+
+.aws-token.txt
